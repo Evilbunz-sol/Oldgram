@@ -1,0 +1,82 @@
+/* Main */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2, p{
+    font-family: Source Sans Pro;  
+}
+
+h2{
+    margin: 0;
+    font-size: 13px;
+}
+
+p{
+    margin-top: 0;
+    font-size: 12px;
+}
+
+footer{
+    padding: 20px 0;
+    background: #EDEDED;
+}
+
+/* Header */
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.logo{
+    width: 150px;
+    height: 40px;
+}
+
+.avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+/* User info */
+
+.general-info{
+    display: flex;
+    padding: 10px 8px 12px 10px;
+}
+
+.user-info{
+    padding-left: 8px;
+}
+
+/* Post */
+
+.image{
+    width: 375px;
+}
+
+.icon{
+    margin-top: 20px; 
+    width: 22px;
+    padding: 0 10px;
+}
+
+.icon:hover{
+    opacity: 50%;
+}
+
+.reactions{
+    padding: 12px 0 16px 12px;
+    font-weight: 700;
+}
+
+.normal-font-weight-text{
+    font-weight: 400;
+}
